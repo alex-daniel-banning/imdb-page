@@ -1,0 +1,54 @@
+nav {
+  background-color: #1A1A1A;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  color: white;
+  height: 50%;
+  font-family: 'Amazon Ember', sans-serif;
+  font-weight: bold;
+}
+
+.nav-item i {
+  border: 2px white;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.menu-hamburger {
+  padding: 5px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-hamburger:hover {
+  background-color: #2b2b2b;
+}
+
+.search-container {
+  background-color: white;
+  border-radius: 2px;
+  width: 100px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.search-container div {
+  color: black;
+  font-size: 9px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
