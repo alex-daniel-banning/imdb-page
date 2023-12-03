@@ -2,7 +2,7 @@ nav {
   background-color: #1A1A1A;
   margin: 0;
   padding: 0;
-  height: 40px;
+  height: 55px;
 
   display: flex;
   justify-content: center;
@@ -37,15 +37,33 @@ nav {
   background-color: white;
   border-radius: 2px;
   width: 100px;
-  height: 20px;
+  height: 50%;
 
   display: flex;
   align-items: center;
 }
 
+.category-dropdown {
+  padding-left: 10px;
+  border-radius: 2px 0 0 2px;
+  height: 100%;
+  border-right:solid 1px rgba(0,0,0,0.3);
+
+  display: flex;
+  align-items: center;
+}
+
+.category-dropdown:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.category-dropdown img {
+  display: block;
+}
+
 .search-container div {
   color: black;
-  font-size: 9px;
+  font-size: 14px;
 }
 
 body {
